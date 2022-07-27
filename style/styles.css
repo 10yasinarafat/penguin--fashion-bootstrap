@@ -1,3 +1,19 @@
-.penguin {
+.header-bg-color {
+    background-color: #FFF9F4;
+}
+
+.NIKE {
     color: #FA804C;
+}
+
+.INFINITY {
+    color: #363958;
+}
+
+.cart-btn-primary {
+    background-image: linear-gradient(#3D4FF3, #3543BC);
+}
+
+.color-sh {
+    background-color: rgb(240, 236, 236);
 }

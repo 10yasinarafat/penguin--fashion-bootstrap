@@ -9,49 +9,200 @@
         integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <!-- style css link -->
     <link rel="stylesheet" href="style/styles.css">
+    <!-- font awsome -->
+    <script src="https://kit.fontawesome.com/abeb21b930.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <header>
+    <header class="header-bg-color">
         <!--------------- nav bar start--------------------->
         <section>
             <div>
-                <nav class="navbar navbar-expand-lg bg-light">
-                    <div class="container-fluid">
+                <nav class="navbar navbar-expand-lg ">
+                    <div class="container">
+
                         <a class="navbar-brand" href="#">
                             <div>
-                                <h1 <span>Penguin</span>>Fashion</h1>
+                                <img class="w-50" src="icons/Logo.png" alt="">
                             </div>
                         </a>
+
+
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                             data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                             aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <div class="collapse navbar-collapse " id="navbarSupportedContent">
                             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                                <li class="nav-item">
+                                <li class="nav-item pe-4">
                                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item pe-4">
                                     <a class="nav-link active" aria-current="page" href="#">Product</a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item pe-4">
                                     <a class="nav-link active" aria-current="page" href="#">About Us</a>
                                 </li>
-                                <li class="nav-item">
+                                <li class="nav-item pe-4">
                                     <a class="nav-link active" aria-current="page" href="#">Contact Us</a>
                                 </li>
-
                             </ul>
 
                         </div>
-                    </div>
                 </nav>
             </div>
         </section>
         <!--------------- nav bar end--------------------->
+        <section class="container d-flex ">
+            <div class="">
+                <div>
+                    <img class="w-75" src="images/Group 33092.png" alt="">
+                </div>
+            </div>
+
+            <div class="w-50 mt-5 align-items-center">
+                <h1 class="NIKE ">NIKE REACT</h1>
+                <h1 class="INFINITY">INFINITY RUN 2</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam odio quos maxime?</p>
+                <button class="btn cart-btn-primary text-white" type="submit">
+                    <i class="fa-solid fa-cart-arrow-down pe-2"></i>Buy
+                    Now</button>
+            </div>
+        </section>
     </header>
+    <main>
+
+        <!-- shoes catagory  -->
+        <section class="container my-5">
+            <h1 class="mb-4">CASUAL SHOES</h1>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-5">
+                <div class="col p-4 shadow">
+                    <div class="card border border-0 h-100">
+                        <div class="shadow">
+                            <div class="p-4 color-sh rounded-3">
+                                <img src="images/image1.png" class="card-img-top" alt="...">
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Nike Shoe</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to additional.
+                            </p>
+                        </div>
+                        <div class="m-3 d-flex justify-content-between">
+                            <h1 class="NIKE ">$240</h1>
+                            <button class="btn cart-btn-primary text-white " type="submit">
+                                <i class="fa-solid fa-cart-arrow-down pe-2"></i>Buy
+                                Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col p-4 shadow">
+                    <div class="card border border-0  h-100">
+                        <div class="shadow">
+                            <div class="p-4 color-sh rounded-3">
+                                <img src="images/image1.png" class="card-img-top" alt="...">
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Sneakers Skate Shoe</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to additional.
+                            </p>
+
+                        </div>
+                        <div class="m-3 d-flex justify-content-between">
+                            <h1 class="NIKE ">$250</h1>
+                            <button class="btn cart-btn-primary text-white" type="submit">
+                                <i class="fa-solid fa-cart-arrow-down pe-2"></i>Buy
+                                Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col p-4 shadow">
+                    <div class="card border border-0  h-100">
+                        <div class="shadow">
+                            <div class="p-4 color-sh rounded-3">
+                                <img src="images/image1.png" class="card-img-top" alt="...">
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Sneakers Basketball shoe</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to additional.
+                            </p>
+                        </div>
+                        <div class="m-3 d-flex justify-content-between">
+                            <h1 class="NIKE ">$270</h1>
+                            <button class="btn cart-btn-primary text-white" type="submit">
+                                <i class="fa-solid fa-cart-arrow-down pe-2"></i>Buy
+                                Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- other shoes catagory  -->
+        <section class="container my-5">
+            <h1 class="mb-4">FORMAL SHOES</h1>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                <div class="col shadow-lg rounded-3">
+                    <div class="card border border-0 h-100">
+                        <img src="images/image4.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Supply 350</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to additional.
+                            </p>
+                        </div>
+                        <div class="m-3 d-flex justify-content-between">
+                            <h1 class="NIKE ">$270</h1>
+                            <button class="btn cart-btn-primary text-white" type="submit">
+                                <i class="fa-solid fa-cart-arrow-down pe-2"></i>Buy
+                                Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col shadow-lg rounded-3">
+                    <div class="card border border-0  h-100">
+                        <img src="images/image5.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Nike 360</h5>
+                            <p class="card-text">This card has supporting text below as a natural lead-in to additional
+                                content.
+                            </p>
+                            <h1>$300</h1>
+                        </div>
+                        <div class="m-3 d-flex justify-content-between">
+                            <h1 class="NIKE ">$270</h1>
+                            <button class="btn cart-btn-primary text-white" type="submit">
+                                <i class="fa-solid fa-cart-arrow-down pe-2"></i>Buy
+                                Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col  shadow-lg rounded-3">
+                    <div class="card border border-0 h-100">
+                        <img src="images/image6.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Red Airmax</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional.
+                            </p>
+                            <h1>$340</h1>
+                        </div>
+                        <div class="m-3 d-flex justify-content-between">
+                            <h1 class="NIKE ">$270</h1>
+                            <button class="btn cart-btn-primary text-white" type="submit">
+                                <i class="fa-solid fa-cart-arrow-down pe-2"></i>Buy
+                                Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
         crossorigin="anonymous"></script>
